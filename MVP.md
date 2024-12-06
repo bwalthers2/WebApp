@@ -1,6 +1,6 @@
 - New Features:
 
-1) I implemented support for 3d models, fixing the previous bug that only allowed this website to work when using 2d images of shirts. Now the models are implemented and are shown as a carousel of different clothing items. 
+1) I implemented support for 3d models, fixing the previous website that only allowed for 2d images of shirts. Now the models are implemented and are shown as a carousel of different clothing items. 
 
 2) I added a hover feature that would enlarge the models when a user hovers their mouse over their clothing item.
 
