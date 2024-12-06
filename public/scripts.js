@@ -1,4 +1,3 @@
-// scripts.js
 import * as THREE from 'https://unpkg.com/three@0.149.0/build/three.module.js';
 import { FBXLoader } from 'https://unpkg.com/three@0.149.0/examples/jsm/loaders/FBXLoader.js';
 
@@ -14,7 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     slidesPerView: 3,
     initialSlide: 0,
     coverflowEffect: {
-      rotate: 50,
+      // Reduce or eliminate rotation so that the center slide faces forward
+      rotate: 0,
       stretch: 0,
       depth: 100,
       modifier: 1,
@@ -129,5 +129,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
   }
-}
-)
+});
